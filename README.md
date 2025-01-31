@@ -8,7 +8,7 @@
 Please refer to our developer docs to know how to make use of our SDK to track Events and User Attributes, to implement Push Notification and InApps - https://developers.moengage.com/hc/en-us/articles/4403900743828-SDK-Integration
 
 ## Change Log
-See [SDK Change Log](https://github.com/moengage/MoEngage-iOS-SDK/blob/master/CHANGELOG.md) for information on every released version.
+See [SDK Change Log](CHANGELOG.md) for information on every released version.
 
 ## Support
 For any issues you face with the SDK and for any help with the integration contact us via support.
