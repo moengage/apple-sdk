@@ -36,7 +36,7 @@ let products: [MoEngagePackageProduct] = [
         name: "MoEngage-iOS-SDK",
         targets: [
             .binaryTarget(name: "MoEngageAnalytics", url: "https://github.com/moengage/MoEngage-iOS-SDK/releases/download/9.22.0/MoEngageAnalytics.xcframework.zip", checksum: "f810fc0b3a8b7c4fa61ee5f3e8f82b57f8e4a5be85e2e02a324c3c1f26b7fdf9"),
-            .binaryTarget(name: "MoEngageCore", url: "https://github.com/moengage/apple-sdk/releases/download/9.22.2/MoEngageCore.xcframework.zip", checksum: "4a070f69ae06af2583f6cb73faee48d361bc4ebea17c7b8937dcc98d72d2eaf0"),
+            .binaryTarget(name: "MoEngageCore", url: "https://github.com/moengage/apple-sdk/releases/download/9.22.2/MoEngageCore.xcframework.zip", checksum: "1c09c5c19f68a78b2104581b245ad69511f8e89d39ddc7cc59222da8dfb82194"),
             .binaryTarget(name: "MoEngageMessaging", url: "https://github.com/moengage/MoEngage-iOS-SDK/releases/download/9.21.0/MoEngageMessaging.xcframework.zip", checksum: "b6c5b2c75e51d37693ecb6f3f29e205f4c1c3063a18249e6144cf72fd4cd406b"),
             .binaryTarget(name: "MoEngageObjCUtils", url: "https://github.com/moengage/MoEngage-iOS-SDK/releases/download/9.21.0/MoEngageObjCUtils.xcframework.zip", checksum: "00303f9ccc8882546709fcfbefa6b7ff305e5d8dee24af42360ad7e62020b0d1"),
             .binaryTarget(name: "MoEngageSDK", url: "https://github.com/moengage/MoEngage-iOS-SDK/releases/download/9.21.0/MoEngageSDK.xcframework.zip", checksum: "25994092c82b0ce008eaf08fefe6964338b9652c93e28087a7adbb752f59fe37"),
@@ -60,7 +60,7 @@ let products: [MoEngagePackageProduct] = [
     .init(
         name: "MoEngageCards",
         targets: [
-            .binaryTarget(name: "MoEngageCards", url: "https://github.com/moengage/apple-sdk/releases/download/9.22.2/MoEngageCards.xcframework.zip", checksum: "430518ed069ac381c9754e9d8cdff439ee16eee95fba7716413288ddceccbaac"),
+            .binaryTarget(name: "MoEngageCards", url: "https://github.com/moengage/apple-sdk/releases/download/9.22.2/MoEngageCards.xcframework.zip", checksum: "91979e14c36b15901dc43386eecd4243124bbdbf1b8ec8ee36e5aac039184612"),
             .target(name: "MoEngageCardsSPM", dependencies: .default),
         ]
     ),
