@@ -1,4 +1,4 @@
-![Logo](https://github.com/moengage/MoEngage-iOS-SDK/blob/master/Images/moe_logo_blue.png)
+![Logo](Images/moe_logo_blue.png)
 # MoEngage-iOS-SDK
 
 [![Version](https://img.shields.io/cocoapods/v/MoEngage-iOS-SDK.svg?style=flat)](http://cocoapods.org/pods/MoEngage-iOS-SDK)
