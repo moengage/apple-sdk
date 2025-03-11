@@ -11,7 +11,8 @@ config = JSON.parse(File.read('package.json'), {object_class: OpenStruct})
 derived_data = File.expand_path('~/Library/Developer/Xcode/DerivedData')
 config.packages.each do |package|
   podspec = "#{package.name}.podspec"
-  next unless File.exist?(podspec)
+  info = `pod trunk info #{package.name}`
+  next if !File.exist?(podspec) || info.include?(" #{package.version} ")
   begin
     FileUtils.rm_rf(derived_data) if File.directory?(derived_data)
     system("pod trunk push \"#{podspec}\" --verbose --synchronous --allow-warnings", out: STDOUT, exception: true)
