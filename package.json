@@ -1,6 +1,6 @@
 {
   "name": "MoEngage-iOS-SDK",
-  "version": "9.23.0",
+  "version": "9.23.1",
   "tagPrefix": "moengage-",
   "postBuild": "Utilities/post_build.rb",
   "packages": [
@@ -13,7 +13,7 @@
     },
     {
       "name": "MoEngageCore",
-      "version": "9.23.0",
+      "version": "9.23.1",
       "tagPrefix": "core-",
       "hash": "4dcc8b355ce66bacc4370b282248df662b34ee71b1138171cd1974ad9683b7d1",
       "url": "https://github.com/moengage/apple-sdk/releases/download/9.23.0/MoEngageCore.xcframework.zip"
@@ -76,7 +76,7 @@
     },
     {
       "name": "MoEngageGeofence",
-      "version": "5.19.0",
+      "version": "5.19.1",
       "tagPrefix": "geofence-",
       "hash": "a33ed85ab3ba8ef8069305f9548458203e107b91db522bb295829598a9152006",
       "url": "https://github.com/moengage/MoEngage-iOS-SDK/releases/download/9.21.0/MoEngageGeofence.xcframework.zip"
@@ -90,7 +90,7 @@
     },
     {
       "name": "MoEngageRealTimeTrigger",
-      "version": "2.19.0",
+      "version": "2.19.1",
       "tagPrefix": "rtt-",
       "hash": "cd8459f589d6b67696a7dc5805657f0f3a2e0eb17edad0d0ee8bf248d915b591",
       "url": "https://github.com/moengage/MoEngage-iOS-SDK/releases/download/9.21.0/MoEngageRealTimeTrigger.xcframework.zip"
