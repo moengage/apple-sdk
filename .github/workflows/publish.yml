@@ -28,7 +28,7 @@ jobs:
         path: source
 
     - name: Publish to CocoaPods
-      run: ../scripts/scripts/release/ios/pod_push.rb
+      run: ${{ github.workspace }}/scripts/scripts/release/ios/pod_push.rb
       working-directory: source
       env:
         COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
