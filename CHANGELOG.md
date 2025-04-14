@@ -2,13 +2,6 @@
 =================================
 
 ## Changelog:
-### Version 9.23.3 *(14th April 2025)*
-
-## Messaging 4.20.3
-Fixes
-  *  Notification Click not getting tracked when app launched from Killed state by clicking notification fix.
-
-## Changelog:
 ### Version 9.23.2 *(26th March 2025)*
 
 ## Cards 4.20.1
