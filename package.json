@@ -1,6 +1,6 @@
 {
   "name": "MoEngage-iOS-SDK",
-  "version": "9.23.2",
+  "version": "9.23.3",
   "tagPrefix": "moengage-",
   "postBuild": "Utilities/post_build.rb",
   "packages": [
@@ -13,10 +13,10 @@
     },
     {
       "name": "MoEngageCore",
-      "version": "9.23.2",
+      "version": "9.23.3",
       "tagPrefix": "core-",
-      "hash": "853fe29ad22aa88fc8d716a595d165229f3db95509ed5c7770858af411f23040",
-      "url": "https://github.com/moengage/apple-sdk/releases/download/9.23.2/MoEngageCore.xcframework.zip"
+      "hash": "9b0277ad502089fe9340abffcc1d40f77b7464e85cfa8c15203b0a12c3ccba7f",
+      "url": "https://github.com/moengage/apple-sdk/releases/download/9.23.3/MoEngageCore.xcframework.zip"
     },
     {
       "name": "MoEngageObjCUtils",
@@ -34,10 +34,10 @@
     },
     {
       "name": "MoEngageMessaging",
-      "version": "4.20.2",
+      "version": "4.20.3",
       "tagPrefix": "messaging-",
-      "hash": "ef4ccc3be0fb5591e1b907570cd6211caec52fc181e2156a17ed176ee5637f35",
-      "url": "https://github.com/moengage/apple-sdk/releases/download/9.23.2/MoEngageMessaging.xcframework.zip"
+      "hash": "cafe67bd626ae2d844a7711b7a0361fd0f8fa1b854c8c0f52099bae5f45da2fe",
+      "url": "https://github.com/moengage/apple-sdk/releases/download/9.23.3/MoEngageMessaging.xcframework.zip"
     },
     {
       "name": "MoEngageSDK",
