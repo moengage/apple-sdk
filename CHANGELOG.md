@@ -2,6 +2,13 @@
 =================================
 
 ## Changelog:
+### Version 9.23.4 *(15th April 2025)*
+
+## Messaging 4.20.4
+Fixes
+  * Fixed push opt in set as false if alert setting disabled.
+
+## Changelog:
 ### Version 9.23.3 *(14th April 2025)*
 
 ## Messaging 4.20.3
