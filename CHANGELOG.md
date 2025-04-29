@@ -2,7 +2,7 @@
 =================================
 
 ## Changelog:
-### Version 9.23.5 *(29th April 2025)*
+### Version 9.24.0 *(29th April 2025)*
 
 ##  Messaging 4.20.5
 Fixes
