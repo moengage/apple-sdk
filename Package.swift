@@ -1,4 +1,4 @@
-// swift-tools-version:5.5
+// swift-tools-version:5.6
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 // This file generated from post_build script, modify the script instaed of this file.
 
@@ -6,8 +6,12 @@ import PackageDescription
 
 let package = Package(
     name: "MoEngage-iOS-SDK",
-    platforms: [.iOS(.v11), .tvOS(.v11)],
-    products: [], dependencies: [], targets: [],
+    platforms: [.iOS(.v13), .tvOS(.v13)],
+    products: [], dependencies: [
+        // can be updated to from:
+        .package(url: "https://github.com/moengage/kmm-apple-sdk", exact: "1.0.0")
+    ],
+    targets: [],
     swiftLanguageVersions: [.v5]
 )
 
@@ -19,8 +23,7 @@ struct MoEngagePackageProduct {
 extension Collection where Element == Target.Dependency {
     static var `default`: [Target.Dependency] {
         return [
-            "MoEngageAnalytics", "MoEngageCore", "MoEngageMessaging",
-            "MoEngageObjCUtils", "MoEngageSDK", "MoEngageSecurity",
+            "MoEngageCore", "MoEngageMessaging", "MoEngageSDK", "MoEngageSecurity",
         ]
     }
 
@@ -33,14 +36,25 @@ extension Collection where Element == Target.Dependency {
 
 let products: [MoEngagePackageProduct] = [
     .init(
-        name: "MoEngage-iOS-SDK",
+        name: "MoEngageSDK",
         targets: [
-            .binaryTarget(name: "MoEngageAnalytics", url: "https://github.com/moengage/apple-sdk/releases/download/9.24.0/MoEngageAnalytics.xcframework.zip", checksum: "0036459a7cd62f9334c3e9841ae870f84e541ac156fce634d5c513c7089de6f9"),
             .binaryTarget(name: "MoEngageCore", url: "https://github.com/moengage/apple-sdk/releases/download/9.24.0/MoEngageCore.xcframework.zip", checksum: "833ed15fd72adbe992f4291f19f8f8ac92e0a5ca8b4b790f9e305d53540e4683"),
             .binaryTarget(name: "MoEngageMessaging", url: "https://github.com/moengage/apple-sdk/releases/download/9.24.0/MoEngageMessaging.xcframework.zip", checksum: "01faebeb9ac7464d733c9019783140a8a62d193d9c1a9230e0a19f8e608d2c68"),
-            .binaryTarget(name: "MoEngageObjCUtils", url: "https://github.com/moengage/apple-sdk/releases/download/9.24.0/MoEngageObjCUtils.xcframework.zip", checksum: "b59a30629386ccaff16d2cb10a7968ba6ad50b625e6e2e77f9225ebf08492ffb"),
             .binaryTarget(name: "MoEngageSDK", url: "https://github.com/moengage/apple-sdk/releases/download/9.24.0/MoEngageSDK.xcframework.zip", checksum: "363252117da08838c8cc03922b6fd13d61eaa3dc254cb283cc14b4da31a0580d"),
             .binaryTarget(name: "MoEngageSecurity", url: "https://github.com/moengage/MoEngage-iOS-SDK/releases/download/9.21.0/MoEngageSecurity.xcframework.zip", checksum: "9f6cd3de7093d8ff67f07a1cbfda31d3c870601321b3c92ddfbfed27a786b757"),
+        ]
+    ),
+    .init(
+        name: "MoEngage-iOS-SDK",
+        targets: [
+            .target(
+                name: "MoEngageSDKSPM",
+                dependencies: .additional(
+                    dependency: .product(
+                        name: "MoEngageKMMConditionEvaluator", package: "kmm-apple-sdk"
+                    )
+                )
+            ),
         ]
     ),
     .init(
