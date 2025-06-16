@@ -18,9 +18,7 @@ Fixes:
 #### Inbox 3.01.0
 Whats new
     * Added accessibility support
-Fixes:
-    * Fixed provisional opt in device attribute not getting tracked after 24hrs.
-
+    
 #### InApps 7.01.0
 Whats new
     * Added accessibility support
