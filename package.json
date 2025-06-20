@@ -82,6 +82,13 @@
       "url": "https://github.com/moengage/apple-sdk/releases/download/10.01.0/MoEngageRichNotification.xcframework.zip"
     },
     {
+      "name": "MoEngageLiveActivity",
+      "version": "1.0.0",
+      "tagPrefix": "liveActivity-",
+      "hash": "",
+      "url": ""
+    },
+    {
       "name": "MoEngageRealTimeTrigger",
       "version": "3.01.0",
       "tagPrefix": "rtt-",
