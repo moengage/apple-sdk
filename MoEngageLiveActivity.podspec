@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 
   s.summary      =  "#{s.name} Campaigns for iOS"
   s.description  = <<-DESC
-                     MoEngageLiveActivity helps you to make use live activities.
+                     MoEngageLiveActivity helps you use live activities on iOS.
                    DESC
 
   s.addDirectUseWarning
