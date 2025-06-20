@@ -95,6 +95,13 @@ let products: [MoEngagePackageProduct] = [
         ]
     ),
     .init(
+        name: "MoEngageLiveActivity",
+        targets: [
+            .binaryTarget(name: "MoEngageLiveActivity", url: "", checksum: ""),
+            .target(name: "MoEngageLiveActivitySPM", dependencies: .default),
+        ]
+    ),
+    .init(
         name: "MoEngageInbox",
         targets: [
             .binaryTarget(name: "MoEngageInbox", url: "https://github.com/moengage/apple-sdk/releases/download/10.01.0/MoEngageInbox.xcframework.zip", checksum: "1348ed9f31f85466a96a2732544ed96390231ce3212445bcabc99801e7f6fd8a"),
