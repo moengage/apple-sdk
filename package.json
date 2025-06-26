@@ -1,6 +1,6 @@
 {
   "name": "MoEngage-iOS-SDK",
-  "version": "10.01.0",
+  "version": "10.02.0",
   "tagPrefix": "moengage-",
   "postBuild": "Utilities/post_build.rb",
   "packages": [
@@ -13,7 +13,7 @@
     },
     {
       "name": "MoEngageCore",
-      "version": "10.01.0",
+      "version": "10.02.0",
       "tagPrefix": "core-",
       "hash": "318f3a93783519cd1489aa248873276de0e82cf33bef25a1978d8940e295b98e",
       "url": "https://github.com/moengage/apple-sdk/releases/download/10.01.0/MoEngageCore.xcframework.zip"
@@ -27,7 +27,7 @@
     },
     {
       "name": "MoEngageMessaging",
-      "version": "5.01.0",
+      "version": "5.01.1",
       "tagPrefix": "messaging-",
       "hash": "919a02fcc4abe431c1ec27045e5055621cfe261a1555c1d116bf1f2a76e521c6",
       "url": "https://github.com/moengage/apple-sdk/releases/download/10.01.0/MoEngageMessaging.xcframework.zip"
@@ -55,7 +55,7 @@
     },
     {
       "name": "MoEngageCards",
-      "version": "5.00.0",
+      "version": "5.01.0",
       "tagPrefix": "cards-",
       "hash": "70c270c6b41dd9a0b9bd58a0135d271b031996e241d27a82d724ac939959cdbc",
       "url": "https://github.com/moengage/apple-sdk/releases/download/10.00.0/MoEngageCards.xcframework.zip"
