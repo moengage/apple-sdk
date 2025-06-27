@@ -1,6 +1,6 @@
 {
   "name": "MoEngage-iOS-SDK",
-  "version": "10.02.1",
+  "version": "10.02.2",
   "tagPrefix": "moengage-",
   "postBuild": "Utilities/post_build.rb",
   "packages": [
@@ -13,7 +13,7 @@
     },
     {
       "name": "MoEngageCore",
-      "version": "10.02.1",
+      "version": "10.02.2",
       "tagPrefix": "core-",
       "hash": "8d464a6b422bd1a50f4219730824b0e538ec6d7f2ba3a22f571448282a61d806",
       "url": "https://github.com/moengage/apple-sdk/releases/download/10.02.1/MoEngageCore.xcframework.zip"
