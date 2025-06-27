@@ -34,7 +34,7 @@
     },
     {
       "name": "MoEngageSDK",
-      "version": "10.00.1",
+      "version": "10.00.2",
       "tagPrefix": "sdk-",
       "hash": "9daf948514aef5e041e8bd8c8d37455f8740eb4729cfb8944b266c8e57269a38",
       "url": "https://github.com/moengage/apple-sdk/releases/download/10.02.1/MoEngageSDK.xcframework.zip"
