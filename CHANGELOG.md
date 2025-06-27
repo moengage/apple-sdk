@@ -3,10 +3,10 @@
 
 ## Changelog:
 
-### Version 10.02.1 *(26th June 2025)*
+### Version 10.02.2 *(27th June 2025)*
 -------------------------------------------
 
-#### Core 10.02.1
+#### Core 10.02.2
 Whats new
     * APIs to track offering shown and clicked.
 
