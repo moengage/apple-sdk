@@ -115,6 +115,12 @@ let products: [MoEngagePackageProduct] = [
             .target(name: "MoEngageRealTimeTriggerSPM", dependencies: .additional(dependency: "MoEngageRichNotification")),
         ]
     ),
+    .init(
+        name: "moengage-extensions-integration",
+        targets: [
+            .binaryTarget(name: "moengage-extensions-integration", url: "https://github.com/moengage/apple-sdk/releases/download/10.08.0/moengage-extensions-integration.artifactbundle.zip", checksum: "c876e911fdb42dfbdf6a62af14e7c24eec74cbf210527ed51db7f69e0c82e82e"),
+        ]
+    ),
 ]
 
 for product in products {
