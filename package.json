@@ -107,6 +107,15 @@
       "changelog": "ChangeLogs/MoEngageRealTimeTrigger.md",
       "hash": "abaa247575e33e98b22b44a69e400f9082d922b8f5419a063b7146eebfa3150e",
       "url": "https://github.com/moengage/apple-sdk/releases/download/10.10.0/MoEngageRealTimeTrigger.xcframework.zip"
+    },
+    {
+      "name": "MoEngageExtensionsIntegration",
+      "tool": "moengage-extensions-integration",
+      "version": "1.0.0",
+      "tagPrefix": "extensionsIntegration-",
+      "changelog": "ChangeLogs/MoEngageExtensionsIntegration.md",
+      "hash": "c876e911fdb42dfbdf6a62af14e7c24eec74cbf210527ed51db7f69e0c82e82e",
+      "url": "https://github.com/moengage/apple-sdk/releases/download/10.08.0/moengage-extensions-integration.artifactbundle.zip"
     }
   ],
   "kmm": {
