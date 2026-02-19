@@ -9,7 +9,7 @@ let package = Package(
     platforms: [.iOS(.v13), .tvOS(.v13)],
     products: [], dependencies: [
         // can be updated to from:
-        .package(url: "https://github.com/moengage/kmm-apple-sdk", exact: "1.0.0")
+        .package(url: "https://github.com/moengage/kmm-apple-sdk", exact: "1.0.1")
     ],
     targets: [],
     swiftLanguageVersions: [.v5]
