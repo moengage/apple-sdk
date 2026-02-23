@@ -25,4 +25,4 @@ jobs:
           version: latest
 
       - name: Refresh CocoaPods Session
-        run: pod trunk me > /dev/null 2>&1
+        run: pod trunk me
