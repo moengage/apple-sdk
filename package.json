@@ -109,6 +109,14 @@
       "url": "https://github.com/moengage/apple-sdk/releases/download/10.10.2/MoEngageRealTimeTrigger.xcframework.zip"
     },
     {
+      "name": "MoEngagePersonalization",
+      "version": "1.0.0",
+      "tagPrefix": "personalization-",
+      "changelog": "ChangeLogs/MoEngagePersonalization.md",
+      "hash": "",
+      "url": ""
+    },
+    {
       "name": "MoEngageExtensionsIntegration",
       "tool": "moengage-extensions-integration",
       "version": "1.0.1",
