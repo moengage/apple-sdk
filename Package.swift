@@ -109,6 +109,13 @@ let products: [MoEngagePackageProduct] = [
         ]
     ),
     .init(
+        name: "MoEngageTelemetry",
+        targets: [
+            .binaryTarget(name: "MoEngageTelemetry", url: "", checksum: ""),
+            .target(name: "MoEngageTelemetrySPM", dependencies: .default),
+        ]
+    ),
+    .init(
         name: "MoEngageInbox",
         targets: [
             .binaryTarget(name: "MoEngageInbox", url: "https://github.com/moengage/apple-sdk/releases/download/11.00.0/MoEngageInbox.xcframework.zip", checksum: "28220706d0d289d08fb6ed22573ac61527f41478d959264670f276a60c60d2e2"),
