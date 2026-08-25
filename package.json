@@ -117,6 +117,14 @@
       "url": "https://github.com/moengage/apple-sdk/releases/download/11.00.0/MoEngagePersonalization.xcframework.zip"
     },
     {
+      "name": "MoEngageRecommendations",
+      "version": "1.0.0",
+      "tagPrefix": "recommendations-",
+      "changelog": "ChangeLogs/MoEngageRecommendations.md",
+      "hash": "",
+      "url": ""
+    },
+    {
       "name": "MoEngageExtensionsIntegration",
       "tool": "moengage-extensions-integration",
       "version": "1.0.3",
