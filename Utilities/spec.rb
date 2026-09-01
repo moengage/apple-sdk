@@ -21,11 +21,11 @@ module MoEngageReleaseSDK
       self.name              = podspec
       self.version           = package&.version || MoEngageReleaseSDK.config.version
       self.homepage          = 'https://www.moengage.com'
-      self.documentation_url = 'https://developers.moengage.com'
-      self.changelog         = 'https://developers.moengage.com/hc/en-us/articles/4404198236564-Changelog'
+      self.documentation_url = 'https://www.moengage.com/docs/developer-guide/ios-sdk'
+      self.changelog         = 'https://www.moengage.com/docs/release-notes/sdks/ios'
       self.license           = { :type => 'Commercial', :text => File.read('LICENSE') }
       self.author            = { 'MobileDev' => 'mobiledevs@moengage.com' }
-      self.social_media_url  = 'https://twitter.com/moengage'
+      self.social_media_url  = 'https://x.com/moengage'
 
       if package
         self.source       = { :http => package.url, :sha256 => package[:hash] }
