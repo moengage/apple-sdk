@@ -131,6 +131,14 @@
       "common": true
     },
     {
+      "name": "MoEngageRecommendations",
+      "version": "1.0.0",
+      "tagPrefix": "recommendations-",
+      "changelog": "ChangeLogs/MoEngageRecommendations.md",
+      "hash": "",
+      "url": ""
+    },
+    {
       "name": "MoEngageExtensionsIntegration",
       "tool": "moengage-extensions-integration",
       "version": "1.0.3",
