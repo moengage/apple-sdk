@@ -38,7 +38,7 @@ let products: [MoEngagePackageProduct] = [
     .init(
         name: "MoEngageSDK",
         targets: [
-            .binaryTarget(name: "MoEngageCore", url: "https://github.com/moengage/apple-sdk/releases/download/11.02.0/MoEngageCore.xcframework.zip", checksum: "a11fa0ffd77708d71ca1250782ed19d2200c1650126976f0d9605c91ff65e340"),
+            .binaryTarget(name: "MoEngageCore", path: "XCFramework/MoEngageCore.xcframework"),
             .binaryTarget(name: "MoEngageMessaging", url: "https://github.com/moengage/apple-sdk/releases/download/11.02.0/MoEngageMessaging.xcframework.zip", checksum: "365e06437d7e7389937a3c9de58301f9fa3bf004214211e924f38566fe61ce1a"),
             .binaryTarget(name: "MoEngageSDK", url: "https://github.com/moengage/apple-sdk/releases/download/11.02.0/MoEngageSDK.xcframework.zip", checksum: "d4a74a134869551fe7eeb74d706ea911a2d04b14a027ad49df942ecccddb68b9"),
             .binaryTarget(name: "MoEngageSecurity", url: "https://github.com/moengage/apple-sdk/releases/download/11.00.0/MoEngageSecurity.xcframework.zip", checksum: "a0a388053557f5c61e5bea5b0c5fb950f10908028ff93f50cbd55d3443aadb45"),
@@ -89,7 +89,7 @@ let products: [MoEngagePackageProduct] = [
     .init(
         name: "MoEngageRecommendations",
         targets: [
-            .binaryTarget(name: "MoEngageRecommendations", url: "", checksum: ""),
+            .binaryTarget(name: "MoEngageRecommendations", path: "XCFramework/MoEngageRecommendations.xcframework"),
             .target(name: "MoEngageRecommendationsSPM", dependencies: .default),
         ]
     ),
